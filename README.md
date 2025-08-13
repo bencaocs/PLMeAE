@@ -1,8 +1,8 @@
 # Integrating Protein Language Models and Automatic Biofoundry for Enhanced Protein Evolution
 
 ```
-conda create -n gpu_env python=3.10 -y
-conda activate gpu_env
+conda create -n PLMeAE python=3.10 -y
+conda activate PLMeAE
 
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
 
