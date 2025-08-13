@@ -3,10 +3,7 @@
 ```
 conda create -n PLMeAE python=3.10 -y
 conda activate PLMeAE
-
-conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
-
-conda install numpy -y
+pip3 install torch torchvision
 pip install POT  # Python Optimal Transport 
 ```
 
