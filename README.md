@@ -1,5 +1,29 @@
 # Integrating Protein Language Models and Automatic Biofoundry for Enhanced Protein Evolution
 
+```
+conda create -n gpu_env python=3.10 -y
+conda activate gpu_env
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
+
+conda install numpy -y
+pip install POT  # Python Optimal Transport 
+```
+
+```
+Test in 
+ NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5090        Off |   00000000:41:00.0 Off |                  N/A |
+|  0%   39C    P8              4W /  575W |     213MiB /  32607MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+```
+
 The official implementation of the paper: Integrating Protein Language Models and Automatic Biofoundry for Enhanced Protein Evolution 
 
 
